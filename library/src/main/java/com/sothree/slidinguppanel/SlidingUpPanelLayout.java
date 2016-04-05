@@ -1165,9 +1165,9 @@ public class SlidingUpPanelLayout extends ViewGroup {
                     mTmpRect.top = Math.max(mTmpRect.top, mSlideableView.getBottom());
                 }
             }
-            if (mClipPanel) {
-                canvas.clipRect(mTmpRect);
-            }
+//            if (mClipPanel) {
+//                canvas.clipRect(mTmpRect);
+//            }
 
             result = super.drawChild(canvas, child, drawingTime);
 
